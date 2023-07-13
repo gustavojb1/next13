@@ -14,9 +14,9 @@ export default function Home() {
         <Suspense fallback={<p>Loading feed...</p>}>
           <ComponentComDelay />
         </Suspense>
-        {/* <Suspense fallback={<p>Loading weather...</p>}>
+        <Suspense fallback={<p>Loading weather...</p>}>
           <ComponentComDelayMaior />
-        </Suspense> */}
+        </Suspense>
       </section>
     </div>
   );
