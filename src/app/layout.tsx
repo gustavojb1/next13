@@ -16,7 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" >
-      <body className={inter.className} >{children}</body>
+      <body className={inter.className}  suppressHydrationWarning={true} >
+        <h1 className="font-extrabold">Minha página</h1>
+        {children}
+        </body>
     </html>
   )
 }
